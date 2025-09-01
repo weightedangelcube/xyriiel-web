@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   id="svg1"
+   width="250"
+   height="250"
+   version="1.1"
+   viewBox="0 0 62.5 62.5"
+   sodipodi:docname="logo-icon-square.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="1.5525"
+     inkscape:cx="164.89533"
+     inkscape:cy="161.35266"
+     inkscape:window-width="1876"
+     inkscape:window-height="983"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <text
+     id="text1"
+     transform="scale(1.098492,0.91033891)"
+     x="11.167988"
+     y="50.805271"
+     fill="#ffffff"
+     font-family="'Basement Grotesque'"
+     font-size="35.9053px"
+     font-weight="800"
+     stroke-width="0.266654"
+     xml:space="preserve"
+     style="font-size:42.2497px"><tspan
+       id="tspan1"
+       x="11.167988"
+       y="50.805271"
+       stroke-width="0.266654"
+       style="font-size:42.2497px">X</tspan></text>
+  <path
+     id="path1-5"
+     d="M 60.04762,47.499998 V 60.04762 h -12.547624 0.0959"
+     fill="none"
+     stroke="#ffffff"
+     stroke-width="4.90476" />
+  <path
+     id="path1-5-7"
+     d="M 15.000002,60.047625 H 2.4523749 v -12.547626 0.09583"
+     fill="none"
+     stroke="#ffffff"
+     stroke-width="4.90475" />
+  <path
+     id="path1-1"
+     d="M 60.04762,15.000002 V 2.4523799 h -12.547624 0.0959"
+     fill="none"
+     stroke="#ffffff"
+     stroke-width="4.90476" />
+  <path
+     id="path1"
+     d="M 15.000004,2.4523799 H 2.4523799 v 12.5476221 -0.09583"
+     fill="none"
+     stroke="#ffffff"
+     stroke-width="4.90476" />
+</svg>

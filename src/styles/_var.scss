@@ -1,0 +1,38 @@
+@use "./font";
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --font-heading: 900 80pt 'Basement Grotesque';
+    --font-subheading: 600 10pt 'Inter';
+    --font-body: 400 14pt 'Inter';
+    --text-color: #fff;
+    --link-color: #fff;
+    --background-color: #fff;
+    --background-alt-color: #000;
+    --text-alt-color: #fff;
+    --accent-color: #F23005;
+
+
+    font: var(--font-body);
+
+    a {
+        color: var(--link-color);
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    h1 {
+        font: var(--font-heading);
+    }
+}
+
+body {
+    height: 100vh;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}

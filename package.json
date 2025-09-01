@@ -9,6 +9,10 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.8.0"
+    "astro": "^5.8.0",
+    "node-vibrant": "^4.0.3"
+  },
+  "devDependencies": {
+    "sass-embedded": "^1.90.0"
   }
 }

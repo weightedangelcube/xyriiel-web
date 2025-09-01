@@ -1,16 +1,32 @@
 ---
-
+import Layout from "../layouts/layout.astro";
+import "../styles/main.scss";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout>
+	<script src="../scripts/gallery.js"></script>
+
+	<div class="hero-layout">
+		<div class="hero-strip-left">
+		</div>
+		<div class="hero-main">
+			<div class="hero-gallery-container">
+				<div class="hero-gallery-element">
+					<img src="/img/gallery/placeholder.png" />
+				</div>
+				<div class="hero-gallery-element">
+					<img src="/img/gallery/riellebike.jpg" />
+				</div>
+			</div>
+
+			<a class="hero-gallery-shift-button" onclick="shiftElement(-1)">back</a>
+			<a class="hero-gallery-shift-button" onclick="shiftElement(1)">forward</a>
+
+
+			<div class="hero-title">
+				<img class="hero-title-logo" src="/img/icon/logo.svg"/>
+			</div>
+		</div>
+	</div>
+</Layout>
+

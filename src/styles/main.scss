@@ -1,0 +1,56 @@
+@use "./var";
+
+.hero-layout {
+    margin: 0;
+    flex-grow: 1;
+    display: flex;
+}
+
+.hero-strip-left {
+    background-color: var(--accent-color);
+    height: 100vh;
+    width: 60px;
+    display: block;
+    z-index: 2;
+}
+
+.hero-main {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.hero-gallery-container {
+    height: 60vh;
+    width: 100%;
+    position: relative;
+}
+
+.hero-gallery-element {
+    display: none;
+}
+
+.hero-gallery-element > img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.hero-gallery-shift-button {
+    color: #000 !important;
+    cursor: pointer;
+    position: absolute;
+    top: 35%;
+    
+}
+
+.hero-title {
+    background-color: var(--background-alt-color);
+    color: var(--text-alt-color);
+    height: 40vh;
+    width: 100%;
+    padding: 24px;
+}
+
+.hero-title > img {
+    object-fit: contain;
+}
