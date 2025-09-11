@@ -7,7 +7,7 @@
    height="200"
    version="1.1"
    viewBox="0 0 200 50"
-   sodipodi:docname="logo.svg"
+   sodipodi:docname="logo-text.svg"
    inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -24,9 +24,9 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
-     inkscape:zoom="0.74953319"
-     inkscape:cx="393.5783"
-     inkscape:cy="245.48613"
+     inkscape:zoom="0.53"
+     inkscape:cx="450.9434"
+     inkscape:cy="130.18868"
      inkscape:window-width="1492"
      inkscape:window-height="776"
      inkscape:window-x="0"
@@ -35,12 +35,21 @@
      inkscape:current-layer="svg1" />
   <g
      id="layer1">
-    <path
-       d="m 20.675757,13.981707 h -8.819346 l 7.206051,13.910188 -7.88722,14.053593 h 8.568389 L 25.04958,31.692101 h 0.286808 l 5.592756,10.253387 h 9.213707 L 31.682015,27.891895 39.461682,13.981707 h -8.640091 l -5.126693,10.109982 h -0.215106 z m 46.821436,0 H 59.50242 L 54.411578,25.489878 H 54.196472 L 48.962225,13.981707 h -8.460836 l 8.675942,17.20848 h 1.326488 v 10.755301 h 7.52871 V 31.190187 h 1.07553 z m 17.961372,0 H 69.469018 v 27.963781 h 7.52871 v -9.859026 h 5.592757 c 3.907759,0 4.30212,0.32266 4.30212,3.405846 v 6.45318 h 7.88722 v -6.883392 c 0,-3.585101 -1.900103,-5.234247 -5.628607,-5.628608 3.907759,-0.537765 5.628607,-2.724676 5.628607,-7.349455 0,-6.489031 -1.864252,-8.102326 -9.32126,-8.102326 z m -8.460837,12.368595 v -6.273925 h 6.524883 c 3.369994,0 3.728504,0.322659 3.728504,3.083186 0,2.86808 -0.35851,3.190739 -3.728504,3.190739 z M 98.006394,41.945488 H 105.5351 V 13.981707 h -7.528706 z m 11.113796,0 h 7.52871 V 13.981707 h -7.52871 z m 11.11379,-27.963781 v 27.963781 h 23.01634 v -6.45318 h -15.48763 v -4.660631 h 13.98189 v -6.09467 h -13.98189 v -4.30212 h 15.41593 v -6.45318 z m 26.24294,0 v 27.963781 h 21.15209 v -6.45318 H 154.00563 V 13.981707 Z"
+    <text
        id="text1"
-       style="font-weight:800;font-size:35.851px;font-family:'Basement Grotesque';fill:#ffffff;stroke-width:0.26888"
        transform="scale(1.1185 .89402)"
-       aria-label="XYRIIEL" />
+       x="10.995987"
+       y="41.945488"
+       fill="#ffffff"
+       font-family="'Basement Grotesque'"
+       font-size="35.851px"
+       font-weight="800"
+       stroke-width=".26888"
+       xml:space="preserve"><tspan
+         id="tspan1"
+         x="10.995987"
+         y="41.945488"
+         stroke-width=".26888">XYRIIEL</tspan></text>
     <path
        id="path1-5"
        d="m197.55 35v12.548h-12.548 0.0959"

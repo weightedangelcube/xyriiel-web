@@ -7,7 +7,7 @@
    height="250"
    version="1.1"
    viewBox="0 0 62.5 62.5"
-   sodipodi:docname="logo-icon-square.svg"
+   sodipodi:docname="logo-icon-square-text.svg"
    inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -33,12 +33,23 @@
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg1" />
-  <path
-     d="M 22.575406,17.850506 H 12.181981 L 20.67417,34.243389 11.379236,50.805271 H 21.476914 L 27.72987,38.721857 h 0.337997 L 34.65882,50.805271 H 45.516993 L 35.546064,34.243389 44.714249,17.850506 H 34.532071 l -6.041707,11.914415 h -0.253498 z"
+  <text
      id="text1"
-     style="font-weight:800;font-size:42.2497px;font-family:'Basement Grotesque';fill:#ffffff;stroke-width:0.266654"
      transform="scale(1.098492,0.91033891)"
-     aria-label="X" />
+     x="11.167988"
+     y="50.805271"
+     fill="#ffffff"
+     font-family="'Basement Grotesque'"
+     font-size="35.9053px"
+     font-weight="800"
+     stroke-width="0.266654"
+     xml:space="preserve"
+     style="font-size:42.2497px"><tspan
+       id="tspan1"
+       x="11.167988"
+       y="50.805271"
+       stroke-width="0.266654"
+       style="font-size:42.2497px">X</tspan></text>
   <path
      id="path1-5"
      d="M 60.04762,47.499998 V 60.04762 h -12.547624 0.0959"
