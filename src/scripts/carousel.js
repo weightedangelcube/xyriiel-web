@@ -12,9 +12,10 @@ let paused = false;
 
 function updateSlides(index) {
     slides.forEach((slide, i) => {
-        slide.style.display = i === index ? "block" : "none";
+        slide.style.display = i === index ? "block" : "block";
         slide.setAttribute('aria-hidden', i !== index);
         slide.setAttribute('aria-current', i === index ? 'true' : 'false');
+        slides[currentIndex].setAttribute('id', '');
         if (i === index) {
             slide.focus();
         }
@@ -22,11 +23,18 @@ function updateSlides(index) {
 )};
 
 function nextSlide() {
-    currentIndex = currentIndex + 1
+    let nextIndex = (currentIndex + 1 + slides.length) % slides.length;
+    
+    slides[currentIndex].setAttribute('id', 'carousel-slide-to-right');
+
+    currentIndex = (currentIndex + 1 + slides.length) % slides.length;
+    
     updateSlides(currentIndex);
 }
 
 function prevSlide() {
+    slides[currentIndex].setAttribute('id', 'carousel-slide-to-left');
+
     currentIndex = (currentIndex - 1 + slides.length) % slides.length;
     updateSlides(currentIndex);
 }
@@ -50,5 +58,25 @@ nextBtn.addEventListener('click', () => {
     nextSlide();
     if (autoRotate) togglePause();
 });
+
+// Pause on user mouseenter 
+carousel.addEventListener('mouseenter', () => {
+    if (autoRotate) togglePause();
+}) 
+
+// Continue autoplaying if mouseleave
+carousel.addEventListener('mouseleave', () => {
+    if (!autoRotate) togglePause();
+})
+
+document.addEventListener('keydown', (pressed) => {
+    if (pressed.key === "ArrowLeft") {
+        prevSlide();
+    }
+    if (pressed.key === "ArrowRight") {
+        nextSlide();
+    }
+    if (autoRotate) togglePause();
+})
 
 updateSlides(currentIndex);

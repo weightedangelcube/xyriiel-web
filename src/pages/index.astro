@@ -1,5 +1,7 @@
 ---
 import Layout from "../layouts/layout.astro";
+import ChevronLeft from '@lucide/astro/icons/chevron-left';
+import ChevronRight from '@lucide/astro/icons/chevron-right';
 import "../styles/main.scss";
 ---
 
@@ -14,13 +16,17 @@ import "../styles/main.scss";
 				<div class="hero-carousel-slide">
 					<img src="/img/carousel/placeholder.png" />
 				</div>
-				<div class="hero-carousel-slide">
+				<div class="hero-carousel-slide riellebike" >
 					<img src="/img/carousel/riellebike.jpg" />
 				</div>
 			</div>
 
-			<a class="hero-carousel-shift-button" id="carousel-button-previous">back</a>
-			<a class="hero-carousel-shift-button" id="carousel-button-next">forward</a>
+			<a class="hero-carousel-shift-button" id="carousel-button-previous">
+				<ChevronLeft size='48'/>
+			</a>
+			<a class="hero-carousel-shift-button" id="carousel-button-next">
+				<ChevronRight size='48'/>
+			</a>
 
 
 			<div class="hero-title">

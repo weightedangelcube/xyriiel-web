@@ -29,13 +29,45 @@
 }
 
 .hero-carousel-slide {
-    display: none;
+    width: 100%;
+    display: block;
+    position: absolute;
+    overflow: hidden;
+    transition: transform .5s;
 }
 
 .hero-carousel-slide > img {
     max-height: 60vh;
     width: 100%;
     object-fit: cover;
+}
+
+.hero-carousel-slide:hover > img {
+    // transform: scale(1.5);
+    // is it really worth it?    
+}
+
+.hero-carousel-slide#carousel-slide-to-left {
+    transform: translateX(-100%);
+    // animation: 1s ease-in-out slide-to-left;
+}
+
+.hero-carousel-slide#carousel-slide-to-right {
+    transform: translateX(100%);
+    // animation: 1s ease-in-out slide-to-left;
+}
+
+@keyframes slide-to-left {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100vw);
+    }
+}
+
+.riellebike > img {
+    object-position: 0 35%;
 }
 
 .hero-carousel-shift-button {
