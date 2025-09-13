@@ -28,11 +28,12 @@
     position: relative;
 }
 
-.hero-carousel-element {
+.hero-carousel-slide {
     display: none;
 }
 
-.hero-carousel-element > img {
+.hero-carousel-slide > img {
+    max-height: 60vh;
     width: 100%;
     object-fit: cover;
 }

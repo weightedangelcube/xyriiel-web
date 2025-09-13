@@ -12,11 +12,11 @@ let paused = false;
 
 function updateSlides(index) {
     slides.forEach((slide, i) => {
-        slide.hidden = i !== index;
+        slide.style.display = i === index ? "block" : "none";
         slide.setAttribute('aria-hidden', i !== index);
         slide.setAttribute('aria-current', i === index ? 'true' : 'false');
         if (i === index) {
-            // focus slide
+            slide.focus();
         }
     }
 )};
@@ -50,3 +50,5 @@ nextBtn.addEventListener('click', () => {
     nextSlide();
     if (autoRotate) togglePause();
 });
+
+updateSlides(currentIndex);
