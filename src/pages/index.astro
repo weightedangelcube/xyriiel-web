@@ -1,37 +1,21 @@
 ---
 import Layout from "../layouts/layout.astro";
-import ChevronLeft from '@lucide/astro/icons/chevron-left';
-import ChevronRight from '@lucide/astro/icons/chevron-right';
 import "../styles/main.scss";
 ---
 
 <Layout>
-	<script src="../scripts/carousel.js"></script>
-
 	<div class="hero-layout">
-		<div class="hero-strip-left">
+		<div class="hero-art-column">
+			<img src="/img/hero/riellebike.jpg" />
 		</div>
-		<div class="hero-main">
-			<div class="hero-carousel-container">
-				<div class="hero-carousel-slide">
-					<img src="/img/carousel/placeholder.png" />
-				</div>
-				<div class="hero-carousel-slide riellebike" >
-					<img src="/img/carousel/riellebike.jpg" />
-				</div>
-			</div>
-
-			<a class="hero-carousel-shift-button" id="carousel-button-previous">
-				<ChevronLeft size='48'/>
-			</a>
-			<a class="hero-carousel-shift-button" id="carousel-button-next">
-				<ChevronRight size='48'/>
-			</a>
-
-
-			<div class="hero-title">
-				<img class="hero-title-logo" src="/img/icon/logo.svg"/>
-			</div>
+		<div class="hero-art-column">
+			<img src="/img/hero/riellebike.jpg" />
+		</div>
+		<div class="hero-art-column">
+			<img src="/img/hero/riellebike.jpg" />
+		</div>
+		<div class="hero-art-column">
+			<img src="/img/hero/riellebike.jpg" />
 		</div>
 	</div>
 </Layout>
