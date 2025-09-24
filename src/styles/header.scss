@@ -11,9 +11,15 @@ header {
 
 .header-logo-container {
     width: 73.4px;
+    transition: width 0.4s cubic-bezier(0.23,1,0.32,1);
     height: 66px;
     padding: 8px;
     background-color: var(--accent-color);
+}
+
+.header-logo-container:has(svg#logo:hover) {
+    width: 216px;
+    transition: width 0.6s cubic-bezier(0.23,1,0.32,1);
 }
 
 .header-logo-container > a > svg {
