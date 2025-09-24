@@ -1,4 +1,6 @@
 @use "./var";
+@use "./logo.css";
+
 
 header {
     display: inline-flex;
@@ -8,14 +10,15 @@ header {
 }
 
 .header-logo-container {
-    width: 60px;
-    height: 60px;
+    width: 73.4px;
+    height: 66px;
     padding: 8px;
     background-color: var(--accent-color);
 }
 
-.header-logo-container > a > img {
-    width: 44px;
+.header-logo-container > a > svg {
+    position: absolute;
+    height: 50px;
 }
 
 nav {

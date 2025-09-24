@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../src/styles/logo.css" type="text/css"?>
 <svg id="logo" width="800" height="200" version="1.1" viewBox="0 0 200 50" fill="currentColor" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
  <path id="l" class="logo-hidden-letter" d="m45.302 12.5v25h23.659v-5.7692h-15.238v-19.231z" fill="inherit" stroke="none" stroke-width=".26888"/>
  <path id="e" class="logo-hidden-letter" d="m45.302 12.5v25h25.745v-5.7692h-17.324v-4.1667h15.639v-5.4487h-15.639v-3.8462h17.243v-5.7692z" fill="inherit" stroke="none" stroke-width=".26888"/>
