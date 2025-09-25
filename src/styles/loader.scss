@@ -12,6 +12,11 @@
     height: 100vh;
 }
 
+.loader.raise-curtain {
+  height: 0vh;
+  transition: height 1s cubic-bezier(0.23,1,0.32,1);
+}
+
 svg#logo {
   position: relative;
     color: var(--text-color);
@@ -54,11 +59,6 @@ svg#logo.expanded #i {
 svg#logo.expanded #r {
   transform: translateX(32.4015px);
 	transition: transform 0.2s cubic-bezier(0.23,1,0.32,1);
-}
-
-svg#logo.expanded #y {
-/*   transform: translateX(32.8025px);
-	transition: transform 0.2s cubic-bezier(0.23,1,0.32,1); */
 }
 
 svg#logo #corner-bottom-right {

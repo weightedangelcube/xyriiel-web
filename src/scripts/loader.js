@@ -6,11 +6,20 @@ window.onload(startLoaderAnimation())
 
 
 async function startLoaderAnimation() {
-    await new Promise(r => setTimeout(r, 1000))
     const logo = document.querySelector("svg#logo")
+    const loader = document.querySelector("div.loader")
+    await new Promise(r => setTimeout(r, 1000))
     logo.classList.add("shifted")
     await new Promise(r => setTimeout(r, 1000))
     logo.classList.remove("shifted")
     logo.setAttribute("viewBox", "0 0 200 50")
     logo.classList.add("expanded")
+    await new Promise(r => setTimeout(r, 1000))
+
+    loader.classList.add("raise-curtain")
+    logo.style.display = "none"
+
+    await new Promise(r => setTimeout(r, 1000))
+
+    loader.style.display = "none"
 }
