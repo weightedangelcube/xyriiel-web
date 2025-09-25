@@ -8,18 +8,17 @@
     --font-heading: 900 80pt 'Basement Grotesque';
     --font-subheading: 600 10pt 'Inter';
     --font-body: 400 14pt 'Inter';
-    --text-color: #fff;
+    --text-color: #FFE49F;
     --link-color: #fff;
-    --background-color: #fff;
+    --background-color: #031526;
     --background-alt-color: #000;
     --text-alt-color: #fff;
-    --accent-color: #F23005;
+    --accent-color: #B01A09;
 
 
     font: var(--font-body);
 
     a {
-        color: var(--link-color);
         cursor: pointer;
         text-decoration: none;
     }

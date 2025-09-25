@@ -6,7 +6,7 @@ header {
     display: inline-flex;
     align-items: flex-start;
     width: 100%;
-    background-color: #000;   
+    background-color: var(--background-color);   
 }
 
 .header-logo-container {
@@ -23,6 +23,7 @@ header {
 }
 
 .header-logo-container > a > svg {
+    color: var(--text-color);
     position: absolute;
     height: 50px;
 }
@@ -36,7 +37,7 @@ nav {
 }
 
 nav > a {
-    color: #fff;
+    color: var(--text-color);
     font: var(--font-subheading);
     font-size: 18px;
     margin: 10px 32px 0 0; // probably edit this to be dynamic with page width
