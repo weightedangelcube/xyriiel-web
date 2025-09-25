@@ -13,13 +13,34 @@
     overflow: hidden;
     height: 100vh;
     flex: 1;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    transition: flex 0.3s cubic-bezier(0.33, 1, 0.68, 1); // ease out cubic
 }
 
 .hero-art-column:hover {
     flex: 2;
+    transition: flex 0.5s cubic-bezier(0.33, 1, 0.68, 1); // ease out cubic
 }
 
 .hero-art-column > img {
     height: 100%;
+    width: 100%;
     object-fit: cover;
+}
+
+.hero-art-column > img#sparkle {
+    object-position: 50% 50%;
+}
+
+.hero-art-column > img#riellebike {
+    object-position: 30% 50%;
+}
+
+.hero-art-column > img#yaemiko {
+    object-position: 100% 50%;
+}
+
+.hero-art-column > img#riellescooter {
+    object-position: 50% 50%;
 }
