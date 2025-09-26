@@ -33,7 +33,7 @@
 }
 
 .loader svg#logo.expanded {
-  // box-shadow: inset 800px 0 0 0 var(--accent-color);
+  box-shadow: inset 800px 0 0 0 var(--accent-color);
   transition: box-shadow 1.2s cubic-bezier(0.23,1,0.32,1);
 }
 
