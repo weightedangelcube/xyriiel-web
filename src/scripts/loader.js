@@ -2,7 +2,7 @@ let logo
 let loader
 
 window.onload = () => {
-    const referrerHostname = new URL(document.referrer).hostname
+    const referrerHostname = document.referrer ? new URL(document.referrer).hostname : ""
     logo = document.querySelector("svg#logo")
     loader = document.querySelector("div.loader")
 
