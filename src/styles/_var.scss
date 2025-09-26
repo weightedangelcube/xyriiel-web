@@ -6,16 +6,15 @@
 
 :root {
     --font-heading: 900 80pt 'Basement Grotesque';
-    --font-subheading: 600 10pt 'Inter';
+    --font-subheading: 500 12pt 'Inter';
     --font-body: 400 14pt 'Inter';
-    --text-color: #FFE49F;
+    --text-color: #FFF;
     --link-color: #fff;
     --background-color: #031526;
     --background-alt-color: #000;
     --text-alt-color: #fff;
     --accent-color: #B01A09;
-
-
+    
     font: var(--font-body);
 
     a {
@@ -31,7 +30,11 @@
 body {
     height: 100vh;
     margin: 0px;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
+}
+
+main {
+    flex: 1;
+    background-color: var(--background-color);
 }
