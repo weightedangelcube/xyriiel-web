@@ -1,0 +1,21 @@
+@use "./var";
+
+body {
+    overflow: hidden;
+}
+span.fourzerofour {
+    position: absolute;
+    font-size: 50vw;
+    color: var(--accent-color);
+    font-family: 'Basement Grotesque';
+    transform: translate(-5vw);
+}
+
+p {
+    text-align: center;
+    position: relative;
+    margin-top: 40%;
+    z-index: 2;
+    color: var(--text-color);
+    font: var(--font-body);
+}
