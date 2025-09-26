@@ -1,25 +1,40 @@
-// step 1: change viewbox, align to center
-// step 2: change viewbox, smoothly slide to left
-window.onload(startLoaderAnimation())
-    // smoothly translate 142.6px * 4 to the left, then change viewbox
-// step 3: smoothly expand with neat colours
+let logo
+let loader
 
+window.onload = () => {
+    const referrerHostname = new URL(document.referrer).hostname
+    logo = document.querySelector("svg#logo")
+    loader = document.querySelector("div.loader")
+
+    if (referrerHostname != "xyriiel.com" && referrerHostname != "localhost" && referrerHostname != "xyriiel-dev.angelcube.dev") {
+        startLoaderAnimation()
+    } else {
+        startQuickLoaderAnimation()   
+    }
+}
 
 async function startLoaderAnimation() {
-    const logo = document.querySelector("svg#logo")
-    const loader = document.querySelector("div.loader")
+    logo.style.display = "unset"
+
     await new Promise(r => setTimeout(r, 1000))
     logo.classList.add("shifted")
     await new Promise(r => setTimeout(r, 1000))
     logo.classList.remove("shifted")
     logo.setAttribute("viewBox", "0 0 200 50")
     logo.classList.add("expanded")
-    await new Promise(r => setTimeout(r, 1000))
+    await new Promise(r => setTimeout(r, 1200))
 
     loader.classList.add("raise-curtain")
     logo.style.display = "none"
 
     await new Promise(r => setTimeout(r, 1000))
+
+    loader.style.display = "none"
+}
+
+async function startQuickLoaderAnimation() {
+    loader.classList.add("raise-curtain-fast")
+    await new Promise(r => setTimeout(r, 400))
 
     loader.style.display = "none"
 }
