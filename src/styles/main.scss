@@ -27,6 +27,17 @@ body {
     transition: flex 0.5s cubic-bezier(0.33, 1, 0.68, 1); // ease out cubic
 }
 
+@media (max-aspect-ratio: 6/5) {
+    .hero-art-column {
+        display: none;
+    }
+
+    .hero-art-column:has(img#sparkle) {
+        display: unset !important;
+    }
+}
+
+
 .hero-art-column > img {
     height: 100%;
     width: 100%;

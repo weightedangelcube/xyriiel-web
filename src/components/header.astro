@@ -3,6 +3,7 @@ import "../styles/header.scss";
 ---
 
 <header>
+    <script src="/src/scripts/header.js" />
     <div class="header-logo-container">
         <a href="/">
             <svg id="logo" fill="currentColor" stroke="currentColor" version="1.1" viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
@@ -21,10 +22,22 @@ import "../styles/header.scss";
         </a>
     </div>
     <nav>
-        <!-- Replace with ::after and Inkscape SVG -->
         <a href="/commissions">COMMISSIONS</a> 
         <a href="/portfolio">PORTFOLIO</a>
         <a href="/contact">CONTACT</a>
         <a href="/about">ABOUT</a>
     </nav>
+
+    <div class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
 </header>
+
+<div class="menu-dropdown">
+        <span><a href="/commissions">COMMISSIONS</a></span> 
+        <span><a href="/portfolio">PORTFOLIO</a></span>
+        <span><a href="/contact">CONTACT</a></span>
+        <span><a href="/about">ABOUT</a></span>
+</div>
