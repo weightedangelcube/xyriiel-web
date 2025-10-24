@@ -3,3 +3,25 @@
 article {
     padding: 8px 24px;
 }
+
+h2 {
+    font: var(--font-subheading)
+}
+
+.contact-container {
+    padding: 2vw;
+}
+
+.contact-text-big {
+    margin: 0;
+    font-family: 'Basement Grotesque';
+    font-weight: 900;
+    font-size: 7vw;
+    -webkit-text-stroke: 0.01em var(--text-color);
+    color: transparent;
+}
+
+.contact-text-big:hover {
+    color: var(--text-color);
+    transition: 0.2s ease-in-out;
+}
