@@ -3,18 +3,35 @@
 body {
     overflow: hidden;
 }
-span.fourzerofour {
+
+.fourzerofour {
+    height: 100%;
+    overflow: hidden;
+}
+
+.fourzerofour span:first-child {
+    transform: translate(-5vw);
+}
+
+@for $i from 1 through 4 {
+    .fourzerofour span:nth-child(#{$i + 1}) {
+        transform: translate(-5vw, $i * 60%);
+    }
+}
+
+.fourzerofour span {
+    overflow: hidden;
     position: absolute;
     font-size: 50vw;
     color: var(--accent-color);
     font-family: 'Basement Grotesque';
-    transform: translate(-5vw);
 }
+
 
 p {
     text-align: center;
     position: relative;
-    margin-top: 40%;
+    top: -20%;
     z-index: 2;
     color: var(--text-color);
     font: var(--font-body);
