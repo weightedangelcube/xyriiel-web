@@ -1,47 +1,15 @@
-# Astro Starter Kit: Minimal
+# hi athena reviewers
 
-```sh
-npm create astro@latest -- --template minimal
-```
+this project went through several iterations, all of which can be accessed from the branches tab.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+the original design sent to me didn't work out, because xyriiel's art is vertical and the website made was horizontal. there was originally going to be a carousel and all, but none of that went through in the end.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+![original-layout-issue](https://github.com/user-attachments/assets/78f7583b-0181-43d0-86f5-53098721baef)
 
-## 🚀 Project Structure
+later on, I made the hover-flexbox layout, which is the one deployed on https://xyriiel-dev.angelcube.dev/.
 
-Inside of your Astro project, you'll see the following folders and files:
+currently, we're working on revamping it (again lmao), with the current figma looking like this:
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+![](https://github.com/user-attachments/assets/0be6bdb3-7d3a-44a6-adc3-a6f530564775)
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+thank you athena reviewers, we love you
